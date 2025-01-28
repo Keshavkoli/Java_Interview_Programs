@@ -1,7 +1,8 @@
-package com.java.interview.programs;
+package com.java.data.structure.problems;
 
 public class BubbleSort {
 
+	// reference from the apna college 
 	public static void main(String[] args) {
 		int arr[] = { 12, 34, 11, 1, 5, 7, 21 };
 		bubbleSort(arr);
@@ -27,3 +28,6 @@ public class BubbleSort {
 		}
 	}
 }
+
+//Idea: if arr[i] > arr[i+1] swap them. To place the element in their respective position, we have to do the following operation N-1 times. 
+//Time Complexity: O(N2)

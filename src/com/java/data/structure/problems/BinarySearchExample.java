@@ -1,4 +1,4 @@
-package com.java.interview.programs;
+package com.java.data.structure.problems;
 
 public class BinarySearchExample {
 
