@@ -1,4 +1,4 @@
-package com.java.interview.programs;
+package com.array.examples;
 
 public class FindSecondLargestNumber {
 	public static void main(String[] args) {
