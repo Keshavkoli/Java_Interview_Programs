@@ -10,7 +10,7 @@ public class CheckArrayEqual {
 		int arr2[] = { 1, 2, 1, 4, 5 };
 //Approach 1
 		boolean result = Arrays.equals(arr1, arr2);
-//		System.out.println(result);
+		System.out.println(result);
 
 // Approach 2
 
