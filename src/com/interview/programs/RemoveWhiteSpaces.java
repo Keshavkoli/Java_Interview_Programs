@@ -9,11 +9,11 @@ public class RemoveWhiteSpaces {
 		// trim() method Removes whitespace from both sides of a string
 		System.out.println(myStr.trim());
 
-		String s = "  abc  def\t";
+//Approach 2 for Removing white spaces  from String
+		String input2 = "my name is Kartik";
+		String removeWhiteSpace = input2.replace(" ", "");
+		System.out.println(removeWhiteSpace);//output- mynameisKartik
 
-		s = s.trim();
-
-		System.out.println(s);
 	}
 
 	static String removeWhiteSpaces(String input) {

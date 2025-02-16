@@ -1,4 +1,4 @@
-package com.interview.programs;
+package com.string.example;
 
 import java.util.Scanner;
 
@@ -11,7 +11,6 @@ public class ReverseString {
 		reverseString(str);
 		reverseString2(str);
 		reverseUsingStringBuffer(str);
-
 	}
 
 //Approach 1 Using the charAt(i) method
